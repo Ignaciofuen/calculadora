@@ -1,5 +1,5 @@
-num1 = int(input("numero 1: ")) 
-num2 = int(input("numero 2: ")) 
+num1 = int(input("ingresar numero 1: ")) 
+num2 = int(input("ingresar numero 2: ")) 
 
 valor = 0
 while True:
@@ -10,18 +10,18 @@ while True:
             4- dividir 
         """)
 
-    valor = int(input("Elige una opcion: ") )     
+    valor = input("Elige una opcion: ")      
 
-    if valor == 1:
+    if valor == "1":
         print("la suma es",num1+num2)
         break;
-    if valor == 2:
+    if valor == "2":
         print("la resta es",num1-num2)
         break;
-    if valor == 3:
+    if valor == "3":
         print("la multiplicacion es",num1*num2)
         break;
-    if valor == 4:
+    if valor == "4":
         print("la division es",num1/num2)
         break;
     else:
