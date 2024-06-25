@@ -1,5 +1,5 @@
-num1 = int(input("numero 1: ")) 
-num2 = int(input("numero 2: ")) 
+num1 = int(input("ingresar numero 1: ")) 
+num2 = int(input("ingresar numero 2: ")) 
 
 valor = 0
 while True:
